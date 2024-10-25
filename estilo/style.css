@@ -43,22 +43,20 @@ iframe#tela {
 }
 
 #redes-sociais {
-    position: relative;
     text-align: right;
-    padding: 0px;
-    margin: 0px;
 }
 
-img {
-    height: 10vh;
-    width: 10vw;
+section#redes-sociais img { 
+    width: 50px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+    margin: 10px;
+    box-sizing: border-box;
 }
 
-section {
-    display: block;
-    unicode-bidi: isolate;
-}
-a > img:hover {
-    text-decoration: underline;
+
+section#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .28s, border .28s;
 }
